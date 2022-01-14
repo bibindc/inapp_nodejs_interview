@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"library"},
+{"type":"table","name":"books","database":"library","data":
+[
+{"book_id":"1","book_name":"wings of fire","book_auther":"apj abdul kalam","book_description":"auto biography of apj abdul kalam","book_publishedby":"ck publishicaations","book_addedon":"2022-01-14 17:20:30","book_updatedon":"2022-01-14 17:20:30"},
+{"book_id":"2","book_name":"harry potter","book_auther":"jk rowling","book_description":"fantacy","book_publishedby":"jk publishicaations","book_addedon":"2022-01-14 20:28:48","book_updatedon":"2022-01-14 20:28:48"},
+{"book_id":"3","book_name":"the god of small things","book_auther":"arundhati roy","book_description":"novel","book_publishedby":"ar publishicaations","book_addedon":"2022-01-14 23:32:35","book_updatedon":"2022-01-14 23:32:35"}
+]
+}
+,{"type":"table","name":"log_request","database":"library","data":
+[
+{"log_id":"1","log_url":"\/books","log_raw_header":"Content-Type,application\/json,User-Agent,PostmanRuntime\/7.28.4,Accept,*\/*,Postman-Token,d8ac0b12-afcf-4f4b-a621-2a805aecad65,Host,127.0.0.1:3000,Accept-Encoding,gzip, deflate, br,Connection,keep-alive,Content-Length,87","log_remote_address":"::ffff:127.0.0.1","log_http_version":"1.1","log_remote_family":"IPv6","log_req_method":"GET","log_req_date":"2022-01-14 21:49:03"},
+{"log_id":"2","log_url":"\/books","log_raw_header":"Content-Type,application\/json,User-Agent,PostmanRuntime\/7.28.4,Accept,*\/*,Cache-Control,no-cache,Postman-Token,ba68960b-68e2-4311-b80f-4ea11533de3b,Host,127.0.0.1:3000,Accept-Encoding,gzip, deflate, br,Connection,keep-alive,Content-Length,87","log_remote_address":"::ffff:127.0.0.1","log_http_version":"1.1","log_remote_family":"IPv6","log_req_method":"GET","log_req_date":"2022-01-14 23:28:48"},
+{"log_id":"3","log_url":"\/auth_user","log_raw_header":"Content-Type,application\/json,User-Agent,PostmanRuntime\/7.28.4,Accept,*\/*,Cache-Control,no-cache,Postman-Token,702ed115-08d9-43d8-adc7-e1d909766e9d,Host,127.0.0.1:3000,Accept-Encoding,gzip, deflate, br,Connection,keep-alive,Content-Length,60","log_remote_address":"::ffff:127.0.0.1","log_http_version":"1.1","log_remote_family":"IPv6","log_req_method":"POST","log_req_date":"2022-01-14 23:29:20"},
+{"log_id":"4","log_url":"\/new_book","log_raw_header":"Authorization,Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImJpYmkiLCJpYXQiOjE2NDIxODMxNjEsImV4cCI6MTY0MjE4Mzc2MX0.tXhK_wiaQiG5iLpJVl-Vfendp8oShat-HuJm2VC-Lmo,Content-Type,application\/json,User-Agent,PostmanRuntime\/7.28.4,Accept,*\/*,Cache-Control,no-cache,Postman-Token,74643c85-1535-45cc-a1dc-b170bb51fa1f,Host,127.0.0.1:3000,Accept-Encoding,gzip, deflate, br,Connection,keep-alive,Content-Length,163","log_remote_address":"::ffff:127.0.0.1","log_http_version":"1.1","log_remote_family":"IPv6","log_req_method":"POST","log_req_date":"2022-01-14 23:32:35"}
+]
+}
+,{"type":"table","name":"users","database":"library","data":
+[
+{"user_id":"1","user_name":"bibin","user_password":"18acfcc3da942abae464939676974dc8","user_displayname":"bibi","user_status":"1"}
+]
+}
+]
